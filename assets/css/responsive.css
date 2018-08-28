@@ -1,0 +1,21 @@
+@media (max-width:768px) {
+  .blockquote{padding:0}
+  ul.research-plan li{font-size:13px}
+  ul.arrow-listing li{font-size:12px}
+  ul.analysis li {padding: 5px 10px 5px 10px; height: 43px; font-size: 10px; font-weight: 700;}
+  ul.analysis li:nth-child(1), ul.analysis li:nth-child(2) {padding-top:14px;}
+  ul.analysis li:after{top:10px;}
+  .high-level-problem .card .card-body{height:250px}
+ .high-level-problem.card2 .card .card-body{height:300px}
+ .research-sm{display:none}
+}
+@media (max-width:767px) {
+	.research-lg{display:none}
+  .research-sm{display:block}
+  .high-level-problem .card .card-body, .high-level-problem.card2 .card .card-body {
+    height: auto;
+}
+.w20pcnt{width:20%!important}
+.create-profile-border{margin-top:0}
+}
+
