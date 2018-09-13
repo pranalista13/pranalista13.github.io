@@ -8,10 +8,25 @@
  */
 
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
-
+@font-face {
+	font-family: BebasNeue;
+	src: url(../fonts/BebasNeue.otf);
+}
+@font-face {
+	font-family: HelveticaNeue;
+	src: url(../fonts/HelveticaNeue.ttf);
+}
+@font-face {
+	font-family: HelveticaNeueBold;
+	src: url(../fonts/HelveticaNeue-Bold.ttf);
+}
+@font-face {
+	font-family: HelveticaNeueMedium;
+	src: url(../fonts/HelveticaNeue-Medium.ttf);
+}
 body {
   	background-color: #ffffff;
-  	font-family: 'Montserrat', sans-serif;
+  	font-family: HelveticaNeue, sans-serif;
     font-weight: 400;
     font-size: 14px;
     color: #000;
@@ -275,9 +290,13 @@ ul.arrow-listing li:after{content:""; position:absolute; left:0px; top:5px; heig
 .mB30{margin-bottom:30px;}
 .mT20{margin-top:20px}
 .mT40{margin-top:40px}
+.mT80{margin-top:80px}
 .mB80{margin-bottom:80px!important;}
+.mR20{margin-right:20px;}
 .text-light{color:rgba(0,0,0,0.5)}
 .fs20{font-size:20px}
+.float-left{float:left}
+.text-litblue{color:#969FD0}
 
 ul.analysis{margin:0; padding:0; list-style:none; margin-bottom:120px; margin-top:40px}
 ul.analysis li{padding:5px 20px 5px 20px; position:relative; height:70px; vertical-align:middle; font-size:19px; font-weight:700; border:2px solid #000; margin-right:57px; float:left; display:table-cell; text-align:center}
@@ -323,3 +342,79 @@ ul.normal li{margin-bottom:10px;}
 .research-sm{display:none}
 .case-study{font-family: Georgia,Times,Times New Roman,serif; }
 .font-sec{font-family: Georgia,Times,Times New Roman,serif; }
+.case-study2 p{font-size:18px}
+.case-study2 p, li{color:rgba(0,0,0,0.5)}
+.case-study2 p.lead{color:rgba(0,0,0,1)!important}
+.case-study2 p.small{font-size:14px!important}
+.case-study2 h4.heading {color: #969FD0; display: inline-block; margin-bottom: 30px; font-family: BebasNeue, sans-serif;padding:0; margin-top:0; background:transparent; text-transform:uppercase; font-weight:300; font-size:24px}
+
+.case-study2 .about-inform{ background:#f4f6f7 url(../img/case-study2/bg_project_1.jpeg) 0 0 no-repeat; background-size: 100% 700px;}
+.case-study2 h2 {text-transform:uppercase; font-family: BebasNeue, sans-serif; margin-top:80px; margin-bottom:30px; font-weight:300; font-size:45px}
+.case-study2 section h3{font-family: BebasNeue, sans-serif;}
+.case-study2 .case-study{font-family: HelveticaNeue, sans-serif;}
+.case-study2 .font-sec{font-family: BebasNeue, sans-serif;}
+.case-study2 .blockquote{font-family: BebasNeue, sans-serif;font-weight: 300;font-size: 45px;line-height: 55px;}
+.case-study2 section h3.title{color:#979ECF; font-weight:400; margin-bottom:10px; font-size:24px}
+.case-study2 section h3.sub-heading{color:#979ECF;}
+.case-study2 .about-inform .card{background: #fff; border:1px solid #979ECF; margin-bottom:10px }
+.case-study2 .about-inform .card .card-body {padding: 20px; margin-bottom: 10px; font-weight: 700; height: 140px;}
+.case-study2 .about-inform .card .card-body h3.title{color:#979ECF}
+.case-study2 .about-inform .inform p{color:rgba(0,0,0,0.5)}
+.case-study2 .about-inform .inform h3{margin-bottom:0}
+.case-study2 h3.heading{text-transform:uppercase; font-weight:300; font-size:40px}
+.case-study2 section h3.sub-heading{font-family: HelveticaNeueMedium, sans-serif; font-weight:300}
+.case-study2 section.about-inform h3.title{    font-weight: 300;font-size: 45px;}
+
+
+.case-study2 .discover .arrow{position:relative; padding-left:100px}
+.case-study2 .discover .arrow:before{content:""; position:absolute; background:url(../img/case-study2/arrow.png) 0 0 no-repeat; z-index:1; left:0; top:0; background-size:cover; height:75px; width:52px;left:-30px}
+.discover-part{ margin-bottom:30px;}
+.discover-part .part{width:18%; margin-right:2%; float:left}
+.case-study2 .discover .content .left{border-left:1px solid #000; padding-left:30px; position:relative; width:50%; left:50%; text-align:left}
+.case-study2 .discover .content .left.no-brdr{border:none}
+.case-study2 .discover .content .left:before{content:""; position:absolute; top:0; left:0; border:5px solid #000; height:15px; width:15px; border-radius:50%; left:-8px;}
+.case-study2 .discover .content .left ul{margin-left:0; padding-left:15px; margin-bottom:0}
+.case-study2 .discover .content .left ul li{margin-bottom:10px;}
+.case-study2 .discover .content .left ul li:last-child{margin-bottom:0}
+
+.case-study2 .discover .content .right{border-right:1px solid #000; padding-left:15%; position:relative; width:50%; text-align:left}
+.case-study2 .discover .content .right:before{content:""; position:absolute; top:0; right:0; border:5px solid #000; height:15px; width:15px; border-radius:50%; right:-8px;}
+.case-study2 .discover h3.title{font-family: HelveticaNeueMedium, sans-serif;}
+.case-study2 .war-room h3.title{font-family: HelveticaNeueMedium, sans-serif;}
+.case-study2 .persona-details h4{font-family: HelveticaNeueMedium, sans-serif;}
+
+.case-study2 .war-room .card{background: #fff; border-left:5px solid #979ECF; margin-bottom:10px }
+.case-study2 .war-room .card .card-body {padding: 20px; margin-bottom: 10px; height: 140px;}
+.case-study2 .war-room .card .card-body h3.title, .persona-details h4{color:#979ECF}
+
+.case-study2 .test-monial{position:relative; margin-bottom:40px; padding-left:80px;}
+.case-study2 .test-monial .test-user{position:absolute; left:0; top:0}
+.case-study2 .test-monial .username{margin-bottom:10px;}
+.case-study2 .test-monial .user-desc{font-size:12px; margin-bottom:10px;}
+.case-study2 .test-monial .user-talk{color:rgba(0,0,0,0.5); font-weight:700}
+.case-study2 .persona-details .card{box-shadow:0 0 5px rgba(0,0,0,0.5)} 
+.case-study2 .persona-details .card .card-body{background:#fff}
+.black{color:#000!important}
+
+.case-study2 .ideate p{width:45%; margin:0 auto}
+.case-study2 .key-feature h5{color:#979ECF; font-size:14px;}
+.case-study2 .key-feature ol li{font-size:12px; color:rgba(0,0,0,0.7)}
+.case-study2 .key-feature .card{background: #fff; border:1px solid #979ECF; margin-bottom:10px }
+.case-study2 .key-feature .card .card-body {padding:15px; margin-bottom: 10px;}
+.case-study2 .key-feature .card .card-body h3.title{color:#979ECF }
+.case-study2 .key-feature .card .card-body ol{padding:0; padding-left:10px;}
+.case-study2 .key-feature .card .card-body ol ol{padding-left:20px;}
+.case-study2 .key-feature .row1 .column1{width:22%; padding:0 5px}
+.case-study2 .key-feature .row1 .column2{width:39%; padding:0 5px}
+.case-study2 .key-feature .row1 .column3{width:39%; padding:0 5px}
+.case-study2 .key-feature .row2 .column1{width:22%; padding:0 5px}
+.case-study2 .key-feature .row2 .column2{width:22%; padding:0 5px}
+.case-study2 .key-feature .row2 .column3{width:22%; padding:0 5px}
+.case-study2 .key-feature .row2 .column4{width:22%; padding:0 5px}
+.case-study2 .visualize .card .card-body{background:#fff;}
+.case-study2 .info-text p{ width:80%; margin:0 auto; color:#000}
+.case-study2 .info-text p a{color:#979ECF}
+.pT0{padding-top:0}.pB0{padding-bottom:0}
+.case-study2 .visuals .business-vision{position:relative}
+.case-study2 .visuals .business-vision .heading{position:absolute; top:50px; z-index:1; left:45%}
+.case-study2 img.full-width{width:100%}

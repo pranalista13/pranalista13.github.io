@@ -7,15 +7,27 @@
   ul.analysis li:after{top:10px;}
   .high-level-problem .card .card-body{height:250px}
  .high-level-problem.card2 .card .card-body{height:300px}
- .research-sm{display:none}
+ .research-sm,.no-space{display:none}
+ .case-study2 .discover .content .right{padding-left:0%;}
+ .case-study2 .ideate p {width: 80%;}
+ .case-study2 .visualize .column1{margin-bottom:20px;}
+ 
 }
 @media (max-width:767px) {
 	.research-lg{display:none}
   .research-sm{display:block}
-  .high-level-problem .card .card-body, .high-level-problem.card2 .card .card-body {
-    height: auto;
-}
+  .high-level-problem .card .card-body, .high-level-problem.card2 .card .card-body,.case-study2 .war-room .card .card-body {height: auto;}
 .w20pcnt{width:20%!important}
 .create-profile-border{margin-top:0}
+.case-study2 .discover .content .left{left:0; width:100%}
+.case-study2 .discover .content .right{width:100%; border-left: 1px solid #000; border-right: 0px solid #000; padding-left: 30px;}
+.case-study2 .discover .content .right:before {left: -8px;}
+.case-study2 .key-feature .row1 .column1{width:100%; padding:0 15px}
+.case-study2 .key-feature .row1 .column2{width:100%; padding:0 15px}
+.case-study2 .key-feature .row1 .column3{width:100%; padding:0 15px}
+.case-study2 .key-feature .row2 .column1{width:100%; padding:0 15px}
+.case-study2 .key-feature .row2 .column2{width:100%; padding:0 15px}
+.case-study2 .key-feature .row2 .column3{width:100%; padding:0 15px}
+.case-study2 .key-feature .row2 .column4{width:100%; padding:0 15px}
 }
 
